@@ -5,7 +5,7 @@
 		<body>
 		<h1>Tariff</h1>
 		<table border="1">
-			<tr bgcolor="#FFF0F5">
+			<tr bgcolor="#ffb5f85">
 				<th>tatiff_name</th>
 				<th>operator</th>
 				<th>payroll</th>
@@ -20,7 +20,7 @@
 			<xsl:for-each select="Tariff/tatiff_name">
 			<!-- Сортировка по возрастанию-->
             <xsl:sort select="payroll" order="ascending"/>
-     		 	<tr>
+     		 	<tr bgcolor="#6eeeff">
        				<td><xsl:value-of select="@name"/></td>
        				<td><xsl:value-of select="operator"/></td>
        				<td><xsl:value-of select="payroll"/></td>

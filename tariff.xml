@@ -55,6 +55,39 @@
 		</parameters>
 	</tatiff_name>
 	
+	<tatiff_name name="yellow_2">
+		<operator> bilain_2 </operator>
+		<payroll> 110 </payroll>
+	    <call_prices>
+			<withinNetwork> 1.3 </withinNetwork>
+			<outsideNetwork> 2 </outsideNetwork>
+			<fixedPhone> 12 </fixedPhone>
+		</call_prices>
+		
+		<sms_price> 4 </sms_price>
+		
+		<parameters>
+			<favoriteNumber>2</favoriteNumber>
+			<tariffication>1 min</tariffication>
+			<paymentConnection>253</paymentConnection>
+		</parameters>
+	</tatiff_name>
 	
-
+	<tatiff_name name="dark">
+		<operator> qwerty </operator>
+		<payroll> 417 </payroll>
+	    <call_prices>
+			<withinNetwork> 1.7 </withinNetwork>
+			<outsideNetwork> 3 </outsideNetwork>
+			<fixedPhone> 12 </fixedPhone>
+		</call_prices>
+		
+		<sms_price> 3 </sms_price>
+		
+		<parameters>
+			<favoriteNumber>2</favoriteNumber>
+			<tariffication>1 min</tariffication>
+			<paymentConnection>213</paymentConnection>
+		</parameters>
+	</tatiff_name>
 </Tariff>
